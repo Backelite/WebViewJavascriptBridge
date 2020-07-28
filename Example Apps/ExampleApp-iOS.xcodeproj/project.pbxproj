@@ -12,8 +12,6 @@
 		0E8082DB19EDC32300479452 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8082DA19EDC32300479452 /* WKWebViewJavascriptBridge.m */; };
 		0ECB01441A0EE1F20037FF4E /* ExampleWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB01431A0EE1F20037FF4E /* ExampleWKWebViewController.m */; };
 		2C1562B5176B9F8400B4AE50 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2C1562B4176B9F8400B4AE50 /* WebViewJavascriptBridge.js.txt */; };
-		2C1562C0176BA63500B4AE50 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1562A9176B9F6200B4AE50 /* WebViewJavascriptBridge.m */; };
-		2C45CA2C1884AD520002A4E2 /* ExampleUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C45CA2B1884AD520002A4E2 /* ExampleUIWebViewController.m */; };
 		2CA045BF17117439006DEE8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CA045B717117439006DEE8B /* InfoPlist.strings */; };
 		2CA045C217117439006DEE8B /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA045BD17117439006DEE8B /* ExampleAppDelegate.m */; };
 		2CA045C317117439006DEE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA045BE17117439006DEE8B /* main.m */; };
@@ -32,11 +30,7 @@
 		0E8082DC19EDD98700479452 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		0ECB01421A0EE1BA0037FF4E /* ExampleWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleWKWebViewController.h; sourceTree = "<group>"; };
 		0ECB01431A0EE1F20037FF4E /* ExampleWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleWKWebViewController.m; sourceTree = "<group>"; };
-		2C1562A8176B9F6200B4AE50 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		2C1562A9176B9F6200B4AE50 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		2C1562B4176B9F8400B4AE50 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
-		2C45CA2A1884AD520002A4E2 /* ExampleUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleUIWebViewController.h; sourceTree = "<group>"; };
-		2C45CA2B1884AD520002A4E2 /* ExampleUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleUIWebViewController.m; sourceTree = "<group>"; };
 		2CA045B817117439006DEE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CA045B917117439006DEE8B /* ExampleApp-iOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExampleApp-iOS-Info.plist"; sourceTree = "<group>"; };
 		2CA045BA17117439006DEE8B /* ExampleApp-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExampleApp-iOS-Prefix.pch"; sourceTree = "<group>"; };
@@ -70,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				2C1562B4176B9F8400B4AE50 /* WebViewJavascriptBridge.js.txt */,
-				2C1562A8176B9F6200B4AE50 /* WebViewJavascriptBridge.h */,
-				2C1562A9176B9F6200B4AE50 /* WebViewJavascriptBridge.m */,
 				0E8082DA19EDC32300479452 /* WKWebViewJavascriptBridge.m */,
 				0E8082D919EDC32300479452 /* WKWebViewJavascriptBridge.h */,
 				0E50601B1A01B442000BEEEA /* WebViewJavascriptBridgeBase.m */,
@@ -87,8 +79,6 @@
 				2CA0465B1711AC8D006DEE8B /* ExampleApp.html */,
 				2CA045BC17117439006DEE8B /* ExampleAppDelegate.h */,
 				2CA045BD17117439006DEE8B /* ExampleAppDelegate.m */,
-				2C45CA2A1884AD520002A4E2 /* ExampleUIWebViewController.h */,
-				2C45CA2B1884AD520002A4E2 /* ExampleUIWebViewController.m */,
 				0ECB01421A0EE1BA0037FF4E /* ExampleWKWebViewController.h */,
 				0ECB01431A0EE1F20037FF4E /* ExampleWKWebViewController.m */,
 				2C1562A7176B9F5400B4AE50 /* WebViewJavascriptBridge */,
@@ -171,6 +161,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2CEB3EB01602563600548120;
@@ -202,9 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1562C0176BA63500B4AE50 /* WebViewJavascriptBridge.m in Sources */,
 				0E8082DB19EDC32300479452 /* WKWebViewJavascriptBridge.m in Sources */,
-				2C45CA2C1884AD520002A4E2 /* ExampleUIWebViewController.m in Sources */,
 				0ECB01441A0EE1F20037FF4E /* ExampleWKWebViewController.m in Sources */,
 				2CA045C217117439006DEE8B /* ExampleAppDelegate.m in Sources */,
 				0E50601C1A01B442000BEEEA /* WebViewJavascriptBridgeBase.m in Sources */,
@@ -247,7 +236,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -267,7 +256,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -280,7 +269,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleApp-iOS/ExampleApp-iOS-Prefix.pch";
 				INFOPLIST_FILE = "ExampleApp-iOS/ExampleApp-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "ExampleApp-iOS";
 				WRAPPER_EXTENSION = app;
 			};
@@ -292,7 +280,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExampleApp-iOS/ExampleApp-iOS-Prefix.pch";
 				INFOPLIST_FILE = "ExampleApp-iOS/ExampleApp-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "ExampleApp-iOS";
 				WRAPPER_EXTENSION = app;
 			};
